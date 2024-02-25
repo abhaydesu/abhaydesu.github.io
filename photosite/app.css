@@ -1,0 +1,56 @@
+img {
+    width: 30%;
+    margin: calc(10%/6);
+    border-radius: 0.25%;
+    object-fit: cover;
+    height: 40rem;
+}
+
+#porsche,
+#igate {
+    object-position: bottom;
+}
+
+#jsw,
+#best {
+    object-position: top;
+}
+
+#jp {
+    font-family: 'Dela Gothic One', sans-serif;
+    margin: 0;
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin-left: 1.6%;
+    padding: 0.8em 0;
+    padding-top: 1.4em;
+    width: 30%;
+    border-bottom: 2px solid #f1f1f1;
+}
+
+nav::selection {
+    background-color: #6c757d;
+    color: #adb5bd;
+}
+
+#jp::selection {
+    background-color: #6c757d;
+    color: #adb5bd;
+}
+
+nav:hover {
+    transform: scale(1.01);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+img:hover {
+    transform: scale(1.01);
+    transition: all 0.2s;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #6c757d;
+}
